@@ -24,5 +24,31 @@
   border-radius: 25px;
   width: 400px;
   padding: 50px;
-  margin: 50px;
+  margin: 50px auto;
+}
+
+/*  50px auto first value top and bottom, second value left and right */
+/* why percentage
+% is a relative value
+
+
+*/
+.box-image {
+  width: 100%;
+}
+
+.bg {
+  width: 600px;
+  background-color: red;
+  margin: 50px auto;
+  color: wheat;
+  padding: 90px 50px;
+}
+
+.btn {
+  background-color: wheat;
+  border: none;
+  padding: 16px 13px;
+  font-size: 16px;
+  border-radius: 8px;
 }
