@@ -1,0 +1,18 @@
+/* class name start with dot .  */
+.heading1 {
+  color: red;
+}
+
+/* reason to use code
+1 organize the code
+2 to appply the css
+ */
+
+.center {
+  text-align: center;
+}
+
+/* box model contains
+1 border
+2 padding
+3 margins */
