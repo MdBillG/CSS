@@ -13,6 +13,16 @@
 }
 
 /* box model contains
-1 border
-2 padding
-3 margins */
+1 border => thiclness,style, color
+2 padding => space  inside the border
+3 margins => space outise the border
+
+*/
+
+.box {
+  border: 5px solid red;
+  border-radius: 25px;
+  width: 400px;
+  padding: 50px;
+  margin: 50px;
+}
