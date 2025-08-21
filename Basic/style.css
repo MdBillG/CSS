@@ -1,0 +1,58 @@
+
+.h12{
+    color: rgb(255, 0, 93);
+    text-align: center;
+}
+
+.border{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(255, 0, 93);
+}
+
+body{
+    background-image: url('httpss://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-attachment:scroll ;
+
+
+}
+
+.dotted{
+    border: 1px dotted blue
+}
+  .dashed{
+    border: 1px dashed red;
+  }
+
+.double{
+    border: 1px double green;
+}
+
+/* groove looks good when border is thick */
+.groove{
+    border: 10px groove ;
+    border-color: rgb(255, 0, 93);
+}
+.ridge{
+    border: 10px ridge ;
+    border-color: rgb(255, 0, 93);
+}
+.inset{
+    border: 10px inset ;
+    border-color: rgb(255, 0, 93);
+}
+.outset{
+    border: 10px outset ;
+    border-color: rgb(255, 0, 93);
+}
+
+.mix{
+    border: 10px solid rgb(255, 0, 93);
+    border-style: dashed;
+    border-color: rgb(255, 0, 93) rgb(0, 255, 0) rgb(0, 0, 255);
+}
